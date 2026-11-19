@@ -1,0 +1,52 @@
+{
+  "slug": "pixel-keep",
+  "kind": "extension",
+  "version": "0.1.2",
+  "name": {
+    "zh": "像素守城",
+    "en": "Pixel Keep"
+  },
+  "boards": [
+    "tikpal-r1"
+  ],
+  "layout": "yaykit-v1",
+  "minYay": "0.1.14",
+  "apiLevel": 4,
+  "capabilities": {},
+  "launch": {
+    "summary": {
+      "zh": "像素风休闲守城：拖动瞄准射果冻怪，摇一摇或按侧键放炸弹。",
+      "en": "A relaxed pixel-art castle defence: drag to aim at the jelly monsters, shake or tap the side key for a bomb."
+    },
+    "examples": {
+      "zh": [
+        "打开像素守城",
+        "我想玩守城游戏"
+      ],
+      "en": [
+        "Open Pixel Keep",
+        "Let me play the castle game"
+      ]
+    }
+  },
+  "aliases": {
+    "zh": [
+      "像素守城",
+      "守城"
+    ],
+    "en": [
+      "Pixel Keep"
+    ]
+  },
+  "scenes": [
+    "relax",
+    "party"
+  ],
+  "audience": "all",
+  "pricing": {
+    "kind": "free"
+  },
+  "voiceCode": {
+    "number": 269
+  }
+}
